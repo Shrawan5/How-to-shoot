@@ -1,0 +1,12 @@
+.theme-toggle-button {
+  background-color: var(--button-background);
+  border: none;
+  padding: 8px 15px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.theme-toggle-button:hover {
+  background-color: var(--button-hover);
+}

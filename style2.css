@@ -1,0 +1,46 @@
+/* Theme Variables */
+:root {
+  --background-color: #f4f4f4;
+  --text-color: #333;
+  --nav-background: #333;
+  --card-background: white;
+  --button-background: #e74c3c;
+  --button-hover: #c0392b;
+}
+
+body.dark-mode {
+  --background-color: #181818;
+  --text-color: #f4f4f4;
+  --nav-background: #000;
+  --card-background: #333;
+  --button-background: #3498db;
+  --button-hover: #2980b9;
+}
+
+/* Apply theme variables */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+nav {
+  background-color: var(--nav-background);
+}
+
+.hero-button {
+  background-color: var(--button-background);
+}
+
+.hero-button:hover {
+  background-color: var(--button-hover);
+}
+
+.card {
+  background-color: var(--card-background);
+}
+
+/* Contact section specifically for dark mode */
+body.dark-mode .contact-section {
+  background-color: var(--nav-background);
+  color: var(--text-color);
+}
